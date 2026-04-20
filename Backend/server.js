@@ -1,0 +1,98 @@
+const express = require('express');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const cookieParser = require('cookie-parser');
+const morgan = require('morgan');
+const helmet = require('helmet');
+const { globalLimiter, authLimiter, uploadLimiter } = require('./middleware/rateLimiter');
+const connectDB = require('./config/db');
+const errorHandler = require('./middleware/errorMiddleware');
+const authRoutes = require('./routes/authRoutes');
+const jobRoutes = require('./routes/jobRoutes');
+const Admin = require('./routes/adminRoutes');
+const Candidate = require('./candidate/routes/candidateRoutes');
+const Recruiter = require('./routes/recruiterRoutes');
+import path from "path";
+
+// Load environment variables
+dotenv.config();
+
+// Connect to database
+connectDB();
+
+// Initialize Express app
+const app = express();
+const _dirname = path.resolve();
+
+// Body parser
+app.use(express.json({ limit: '100mb' }));
+app.use(express.urlencoded({ limit: '100mb', extended: true }));
+app.use(cookieParser());
+
+// Security headers
+app.use(helmet());
+
+// Enable CORS (Allow frontend URL)
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Adjust defaults as needed
+    credentials: true,
+  })
+);
+
+// Logging middleware
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('dev'));
+}
+
+// Rate limiting
+app.use(globalLimiter);
+app.use('/api/auth', authLimiter);
+app.use('/api/upload', uploadLimiter);
+
+// Setup routes
+// NOTE: We will create authRoutes.js in the next step
+
+
+app.use('/api/auth', authRoutes);
+app.use('/api/jobs', jobRoutes);
+app.use('/api/recruiter', Recruiter);
+app.use('/api/applications', require('./routes/applicationRoutes'));
+app.use('/api/upload', require('./routes/uploadRoutes'));
+app.use('/api/interviews', require('./routes/interviewRoutes'));
+app.use('/api/notifications', require('./routes/notificationRoutes'));
+app.use('/api/candidate', Candidate);
+app.use('/api/admin', Admin);
+
+// Basic health check route
+app.get('/', (req, res) => {
+  res.send('JobYatra API is running...');
+});
+
+// Centralized error middleware
+app.use(errorHandler);
+
+app.use(express.static(path.join(_dirname, "/Frontend/dist")))
+app.get('*', (_, res) => {
+  res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
+})
+
+
+// Define PORT
+const PORT = process.env.PORT || 5000;
+
+// Start server
+const server = app.listen(PORT, () => {
+  console.log(
+    `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
+  );
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (err, promise) => {
+  console.log(`Error: ${err.message}`);
+  // Close server & exit process
+  server.close(() => process.exit(1));
+});
+
+module.exports = app;

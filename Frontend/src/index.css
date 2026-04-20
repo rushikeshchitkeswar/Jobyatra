@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-jobyatra;
+}
+
+.gradient-btn {
+  @apply bg-gradient-jobyatra text-white hover:opacity-90 transition-opacity;
+}
+
+@layer components {
+  .nav-link {
+    @apply text-slate-600 hover:text-primary transition-colors font-medium;
+  }
+}
