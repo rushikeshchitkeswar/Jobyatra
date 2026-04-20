@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
           // console.log('[AuthContext] No active session found');
         }
       } catch (err) {
-        console.error('[AuthContext] Auth initialization failed:', err);
+        // console.error('[AuthContext] Auth initialization failed:', err);
       } finally {
         setLoading(false);
       }

@@ -13,7 +13,7 @@ const {
   updatePassword,
   updatePreferences
 } = require('../controllers/authController');
-const { protect } = require('../middleware/authMiddleware');
+const { protect, optionalProtect } = require('../middleware/authMiddleware');
 const ErrorResponse = require('../utils/errorResponse');
 
 const router = express.Router();
@@ -74,7 +74,7 @@ router.post(
   resetPassword
 );
 
-router.get('/me', protect, getMe);
+router.get('/me', optionalProtect, getMe);
 router.get('/logout', protect, logout);
 router.patch('/update-details', protect, updateDetails);
 router.patch('/update-password', protect, updatePassword);

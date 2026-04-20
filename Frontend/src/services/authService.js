@@ -51,11 +51,13 @@ const authService = {
   async getMe() {
     try {
       const response = await api.get('/auth/me');
-      if (response.data.success) {
+      if (response.data.success && response.data.data) {
         const userData = response.data.data;
         setUser(userData);
         return userData;
       }
+      // If success is false, it means no session exists (now returns 200 instead of 401)
+      clearAuthData();
       return null;
     } catch (error) {
       clearAuthData();

@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
  * baseURL: http://localhost:5000/api
  */
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api/',
+  baseURL: 'https://jobyatra-ztfz.onrender.com/api/',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
@@ -47,27 +47,20 @@ api.interceptors.response.use(
     const { response } = error;
 
     if (response) {
-      // Global error handling
+      // Global error handling silenced for a clean console
+      /*
       if (response.status === 401) {
         console.warn('[API Error] Unauthorized (401). Redirecting to login...');
       } else if (response.status === 429) {
-        // Prevent toast spam during rapid loops
-        if (!window.__api_429_toast_active) {
-          window.__api_429_toast_active = true;
-          toast.error('Too many requests. Please wait a moment and refresh.', {
-            onClose: () => { window.__api_429_toast_active = false; }
-          });
-          setTimeout(() => { window.__api_429_toast_active = false; }, 3000);
-        }
-        console.error('[API Error] Too Many Requests (429).');
-        return Promise.reject(error);
+        // ...
       } else if (response.status === 500) {
         console.error('[API Error] Server Error (500).');
       }
+      */
 
-      console.error(`[API Error] ${response.status}: ${response.data.message || 'Something went wrong'}`);
+      // console.error(`[API Error] ${response.status}: ${response.data.message || 'Something went wrong'}`);
     } else {
-      console.error('[API Error] Network Error or Server Down.');
+      // console.error('[API Error] Network Error or Server Down.');
     }
 
     return Promise.reject(error);

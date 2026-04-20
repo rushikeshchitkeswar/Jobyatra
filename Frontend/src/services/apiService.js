@@ -14,7 +14,7 @@ export const apiService = {
       const response = await api.get('jobs', { params: filters });
       return response.data;
     } catch (error) {
-      console.error('Error fetching jobs:', error);
+      // Error is handled via UI components
       throw error.response?.data?.message || 'Failed to fetch jobs';
     }
   },
@@ -28,7 +28,7 @@ export const apiService = {
       const response = await api.get(`jobs/${id}`);
       return response.data;
     } catch (error) {
-      console.error(`Error fetching job ${id}:`, error);
+      // Error is handled via UI components
       throw error.response?.data?.message || 'Failed to fetch job details';
     }
   },
@@ -49,7 +49,7 @@ export const apiService = {
       const response = await api.post(`/jobs/${jobId}/apply`, applicationData, config);
       return response.data;
     } catch (error) {
-      console.error('Error submitting application:', error);
+      // Error is handled via UI components
       const message = error.response?.data?.message || 'Failed to submit application';
       throw new Error(message);
     }
@@ -64,7 +64,7 @@ export const apiService = {
       const response = await api.post('/jobs/create', jobData);
       return response.data;
     } catch (error) {
-      console.error('Error creating job:', error);
+      // Error is handled via UI components
       throw error.response?.data?.message || 'Failed to create job';
     }
   },
@@ -87,7 +87,7 @@ export const apiService = {
       const response = await api.get('jobs/recruiter/my-jobs');
       return response.data;
     } catch (error) {
-      console.error('Error fetching recruiter jobs:', error);
+      // Error is handled via UI components
       throw error.response?.data?.message || 'Failed to fetch your jobs';
     }
   },
@@ -208,7 +208,7 @@ export const apiService = {
       const response = await api.post('contact', data);
       return response.data;
     } catch (error) {
-      console.error('Error submitting contact form:', error);
+      // Error is handled via UI components
       throw error.response?.data?.message || 'Failed to send message';
     }
   }

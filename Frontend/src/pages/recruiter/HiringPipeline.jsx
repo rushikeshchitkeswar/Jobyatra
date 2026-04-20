@@ -58,11 +58,9 @@ export default function HiringPipeline() {
       setIsLoading(true);
       try {
         const trimmedJobId = selectedJobId.trim();
-        // console.log(`URL DEBUG: Calling pipeline for job ID: [${trimmedJobId}]`);
         const response = await apiService.getHiringPipeline(trimmedJobId);
         if (response.success) {
           const pipelineData = response.data;
-          // console.log("DEBUG: Pipeline data from backend:", pipelineData);
 
           const mappedColumns = {};
           Object.keys(STAGE_CONFIG).forEach(stageKey => {

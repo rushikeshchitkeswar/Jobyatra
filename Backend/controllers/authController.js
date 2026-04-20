@@ -177,9 +177,16 @@ exports.googleAuth = async (req, res, next) => {
 
 exports.getMe = async (req, res, next) => {
   try {
-    // req.user is already set by the protect middleware
+    // If optionalProtect didn't find a user, return success: false (effectively No Session)
+    if (!req.user) {
+      return res.status(200).json({
+        success: false,
+        data: null,
+      });
+    }
+
+    // req.user was set by middleware
     const user = await User.findById(req.user.id);
-    // console.log(user, "user");
     res.status(200).json({
       success: true,
       data: user,
