@@ -1,5 +1,5 @@
-require('dotenv').config({ path: './Backend/.env' });
-const { uploadFromBuffer } = require('./Backend/config/cloudinary');
+require('dotenv').config({ path: '.env' });
+const { uploadFromBuffer } = require('./config/cloudinary');
 const fs = require('fs');
 
 async function testUpload() {

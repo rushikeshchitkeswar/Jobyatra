@@ -1,6 +1,6 @@
 const path = require('path');
-require('dotenv').config({ path: path.join(__dirname, 'Backend', '.env') });
-const { uploadFromBuffer } = require('./Backend/config/cloudinary');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
+const { uploadFromBuffer } = require('./config/cloudinary');
 
 async function testUpload() {
   try {
