@@ -74,7 +74,7 @@ app.get('/', (req, res) => {
 app.use(errorHandler);
 
 app.use(express.static(path.join(_dirname, "Frontend", "dist")))
-app.get('(.*)', (_, res) => {
+app.get('/(.*)', (_, res) => {
   res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
 })
 
