@@ -12,7 +12,7 @@ const jobRoutes = require('./routes/jobRoutes');
 const Admin = require('./routes/adminRoutes');
 const Candidate = require('./candidate/routes/candidateRoutes');
 const Recruiter = require('./routes/recruiterRoutes');
-import path from "path";
+
 
 // Load environment variables
 dotenv.config();
@@ -72,10 +72,10 @@ app.get('/', (req, res) => {
 // Centralized error middleware
 app.use(errorHandler);
 
-app.use(express.static(path.join(_dirname, "/Frontend/dist")))
-app.get('*', (_, res) => {
-  res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
-})
+// app.use(express.static(path.join(_dirname, "/Frontend/dist")))
+// app.get('*', (_, res) => {
+//   res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
+// })
 
 
 // Define PORT
