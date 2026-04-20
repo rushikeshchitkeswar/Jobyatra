@@ -107,6 +107,7 @@ export const AuthProvider = ({ children }) => {
       const userData = await authService.getMe();
       if (userData) {
         setAuthState(userData);
+        setUser(userData); // Sync with localStorage
       }
     } catch (error) {
       console.error('[AuthContext] Failed to refresh user:', error);

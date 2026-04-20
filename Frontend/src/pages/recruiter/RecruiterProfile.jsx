@@ -91,6 +91,13 @@ export default function RecruiterProfile() {
   const handleAvatarChange = async (e) => {
     const file = e.target.files[0];
     if (file) {
+      // 1. Validation
+      const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg'];
+      if (!allowedTypes.includes(file.type)) {
+        toast.error('Please upload a JPG or PNG image');
+        return;
+      }
+
       if (file.size > 2 * 1024 * 1024) {
         toast.error('Image must be less than 2MB');
         return;
@@ -100,6 +107,8 @@ export default function RecruiterProfile() {
       try {
         const response = await apiService.uploadImage(file, 'avatars');
         setFormData(prev => ({ ...prev, recruiterImage: response.data.url }));
+        
+        // Sync with local state immediately if possible, or wait for final save
         toast.success('Avatar uploaded!', { id: loadingToast });
       } catch (error) {
         toast.error('Avatar upload failed', { id: loadingToast });
@@ -110,6 +119,13 @@ export default function RecruiterProfile() {
   const handleLogoChange = async (e) => {
     const file = e.target.files[0];
     if (file) {
+      // 1. Validation
+      const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg'];
+      if (!allowedTypes.includes(file.type)) {
+        toast.error('Please upload a JPG or PNG image');
+        return;
+      }
+
       if (file.size > 2 * 1024 * 1024) {
         toast.error('Logo must be less than 2MB');
         return;

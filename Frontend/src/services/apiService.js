@@ -118,9 +118,12 @@ export const apiService = {
     formData.append('folder', folder);
     formData.append('image', file);
     
-    const response = await api.post('upload', formData);
+    const response = await api.post('upload/image', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' }
+    });
     return response.data;
   },
+
 
   // Applications
   async getJobApplications(jobId = '') {
@@ -194,5 +197,19 @@ export const apiService = {
   async clearAllNotifications() {
     const response = await api.delete('/notifications');
     return response.data;
+  },
+
+  /**
+   * Submit a contact form message.
+   * @param {Object} data - Form data (name, email, subject, message).
+   */
+  async submitContactForm(data) {
+    try {
+      const response = await api.post('contact', data);
+      return response.data;
+    } catch (error) {
+      console.error('Error submitting contact form:', error);
+      throw error.response?.data?.message || 'Failed to send message';
+    }
   }
 };

@@ -117,7 +117,7 @@ export default function Applicants() {
                             status: app.status,
                             resumeUrl: app.resumeUrl,
                             email: app.email || candidateInfo.email,
-                            avatar: candidateInfo.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(app.name || 'U')}&background=random`
+                            avatar: candidateInfo.profileImage || `https://ui-avatars.com/api/?name=${encodeURIComponent(app.name || 'U')}&background=random`
                         };
                     });
                     setApplicants(mapped);

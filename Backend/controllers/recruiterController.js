@@ -316,7 +316,7 @@ exports.getJobApplications = asyncHandler(async (req, res) => {
     })
     .populate({
       path: 'candidateId',
-      select: 'name email role skills avatar'
+      select: 'name email role skills profileImage'
     })
     .sort('-createdAt');
 
@@ -344,7 +344,7 @@ exports.getApplicationById = asyncHandler(async (req, res) => {
     })
     .populate({
       path: 'candidateId',
-      select: 'name email role skills avatar'
+      select: 'name email role skills profileImage'
     });
 
   if (!application) {
@@ -442,7 +442,7 @@ exports.getHiringPipeline = asyncHandler(async (req, res) => {
 
   // 2. Fetch all applications
   const applications = await JobApplication.find({ jobId: jobOid })
-    .populate({ path: 'candidateId', select: 'name email avatar' })
+    .populate({ path: 'candidateId', select: 'name email profileImage' })
     .sort('-createdAt');
 
   // console.log(`[DEBUG] Total applications found in DB: ${applications.length}`);
@@ -469,7 +469,7 @@ exports.getHiringPipeline = asyncHandler(async (req, res) => {
       role: app.currentRole || 'Applicant',
       applied: app.appliedAt ? new Date(app.appliedAt).toLocaleDateString() : 'Recent',
       rating: 4,
-      avatar: candidateInfo.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(app.name || 'C')}&background=random`
+      avatar: candidateInfo.profileImage || `https://ui-avatars.com/api/?name=${encodeURIComponent(app.name || 'C')}&background=random`
     };
 
     if (pipeline[status]) {

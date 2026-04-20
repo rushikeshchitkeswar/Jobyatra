@@ -104,6 +104,15 @@ exports.updateProfile = asyncHandler(async (req, res) => {
   profile.completionPercentage = percentage;
   await profile.save();
 
+  // 1. Sync name and profileImage with User model
+  const userUpdate = {};
+  if (req.body.fullName) userUpdate.name = req.body.fullName;
+  if (profile.profilePhoto) userUpdate.profileImage = profile.profilePhoto;
+
+  if (Object.keys(userUpdate).length > 0) {
+    await User.findByIdAndUpdate(req.user._id, userUpdate);
+  }
+
   // Log Activity
   await logActivity(req.user._id, 'profile_update', 'Profile', 'Updated basic profile information');
 
@@ -394,7 +403,10 @@ exports.uploadCandidatePhoto = asyncHandler(async (req, res) => {
     profile.completionPercentage = percentage;
     await profile.save();
 
-    // 4. Log activity
+    // 4. Update User model's profileImage to keep in sync
+    await User.findByIdAndUpdate(req.user._id, { profileImage: result.secure_url });
+
+    // 5. Log activity
     await logActivity(req.user._id, 'profile_photo_update', 'Profile', 'Updated profile photo');
 
     res.status(200).json({

@@ -56,7 +56,7 @@ export default function CandidateProfile() {
             website: app.portfolio || candidateInfo.portfolio || '',
             status: app.status,
             matchScore: Math.floor(Math.random() * 20) + 75, // Simulated AI score for now
-            avatar: candidateInfo.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(app.name || 'C')}&background=random`,
+            avatar: candidateInfo.profileImage || `https://ui-avatars.com/api/?name=${encodeURIComponent(app.name || 'C')}&background=random`,
             summary: app.interestReason || app.strengthStatement || 'No summary provided.',
             skills: app.primarySkills?.length > 0 ? app.primarySkills : (candidateInfo.skills || []),
             experience: [

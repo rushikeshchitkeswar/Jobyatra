@@ -82,7 +82,7 @@ export default function Interviews() {
           location: int.location,
           status: int.interviewStatus,
           interviewer: 'You',
-          avatar: int.studentId?.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(int.studentId?.name || 'C')}&background=random`
+          avatar: int.studentId?.profileImage || `https://ui-avatars.com/api/?name=${encodeURIComponent(int.studentId?.name || 'C')}&background=random`
         }));
         setInterviews(mapped);
       }

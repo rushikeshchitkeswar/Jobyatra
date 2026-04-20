@@ -16,6 +16,7 @@ const jobRoutes = require('./routes/jobRoutes');
 const Admin = require('./routes/adminRoutes');
 const Candidate = require('./candidate/routes/candidateRoutes');
 const Recruiter = require('./routes/recruiterRoutes');
+const contactRoutes = require('./routes/contactRoutes');
 const seedAdmin = require('./seedAdmin');
 
 // Initialize Express app
@@ -61,6 +62,7 @@ app.use('/api/interviews', require('./routes/interviewRoutes'));
 app.use('/api/notifications', require('./routes/notificationRoutes'));
 app.use('/api/candidate', Candidate);
 app.use('/api/admin', Admin);
+app.use('/api/contact', contactRoutes);
 
 // Basic health check route
 app.get('/', (req, res) => {

@@ -10,7 +10,7 @@ exports.getJobApplications = asyncHandler(async (req, res) => {
   const { jobId } = req.params;
 
   const applications = await Application.find({ jobId })
-    .populate('studentId', 'name email avatar education skills experience')
+    .populate('studentId', 'name email profileImage education skills experience')
     .sort('-createdAt');
 
   res.status(200).json({
@@ -63,7 +63,7 @@ exports.getHiringPipeline = asyncHandler(async (req, res) => {
   const { jobId } = req.params;
 
   const applications = await Application.find({ jobId })
-    .populate('studentId', 'name email avatar')
+    .populate('studentId', 'name email profileImage')
     .select('studentId status');
 
   const pipeline = {
@@ -81,7 +81,7 @@ exports.getHiringPipeline = asyncHandler(async (req, res) => {
       pipeline[app.status].push({
         id: app._id,
         name: app.studentId.name,
-        avatar: app.studentId.avatar,
+        avatar: app.studentId.profileImage,
         status: app.status
       });
     }

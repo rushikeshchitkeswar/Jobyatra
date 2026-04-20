@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 import { candidateService } from '../../services/candidateService';
+import { useAuth } from '../../context/AuthContext';
 
 // Modals
 import BasicInfoModal from '../../components/dashboard/BasicInfoModal';
@@ -42,6 +43,7 @@ const DashboardProfile = () => {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [activeTab, setActiveTab] = useState('Overview');
+  const { updateUser } = useAuth();
 
   // Modal States
   const [modals, setModals] = useState({
@@ -121,9 +123,12 @@ const DashboardProfile = () => {
     try {
       const response = await candidateService.uploadPhoto(formData);
       if (response.success) {
-        toast.success('Profile photo updated!');
+        toast.success('Profile photo updated successfully!');
         // Update local profile state with the persistent Cloudinary URL
         setProfile(prev => ({ ...prev, profilePhoto: response.data.profilePhoto }));
+        
+        // Sync with global auth state to update navbar instantly
+        updateUser({ profileImage: response.data.profilePhoto });
       }
     } catch (error) {
       console.error('Photo upload failed:', error);
