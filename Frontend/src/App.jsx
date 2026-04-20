@@ -70,7 +70,6 @@ import ActivityLogs from './pages/admin/ActivityLogs'
 import NotificationsManagement from './pages/admin/NotificationsManagement'
 import Reports from './pages/admin/Reports'
 import AdminSettings from './pages/admin/Settings'
-import path from "path";
 
 import { Toaster } from 'react-hot-toast';
 

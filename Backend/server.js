@@ -12,6 +12,7 @@ const jobRoutes = require('./routes/jobRoutes');
 const Admin = require('./routes/adminRoutes');
 const Candidate = require('./candidate/routes/candidateRoutes');
 const Recruiter = require('./routes/recruiterRoutes');
+const seedAdmin = require('./seedAdmin');
 
 
 // Load environment variables
@@ -82,10 +83,11 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
 
 // Start server
-const server = app.listen(PORT, () => {
+const server = app.listen(PORT, async () => {
   console.log(
     `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
   );
+  await seedAdmin();
 });
 
 // Handle unhandled promise rejections
