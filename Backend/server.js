@@ -1,5 +1,9 @@
-const express = require('express');
 const dotenv = require('dotenv');
+
+// Load environment variables FIRST before any other requires that depend on env vars
+dotenv.config();
+
+const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
@@ -13,13 +17,6 @@ const Admin = require('./routes/adminRoutes');
 const Candidate = require('./candidate/routes/candidateRoutes');
 const Recruiter = require('./routes/recruiterRoutes');
 const seedAdmin = require('./seedAdmin');
-
-
-// Load environment variables
-dotenv.config();
-
-// Connect to database
-connectDB();
 
 // Initialize Express app
 const app = express();
@@ -82,19 +79,28 @@ app.use(errorHandler);
 // Define PORT
 const PORT = process.env.PORT || 5000;
 
-// Start server
-const server = app.listen(PORT, async () => {
-  console.log(
-    `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
-  );
-  await seedAdmin();
-});
+// Async startup: connect DB, seed admin, then start server
+const startServer = async () => {
+  // 1. Connect to database
+  await connectDB();
 
-// Handle unhandled promise rejections
-process.on('unhandledRejection', (err, promise) => {
-  console.log(`Error: ${err.message}`);
-  // Close server & exit process
-  server.close(() => process.exit(1));
-});
+  // 2. Seed admin user if not exists
+  await seedAdmin();
+
+  // 3. Start listening
+  const server = app.listen(PORT, () => {
+    console.log(
+      `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
+    );
+  });
+
+  // Handle unhandled promise rejections
+  process.on('unhandledRejection', (err) => {
+    console.log(`Error: ${err.message}`);
+    server.close(() => process.exit(1));
+  });
+};
+
+startServer();
 
 module.exports = app;

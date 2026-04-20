@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
  * baseURL: http://localhost:5000/api
  */
 const api = axios.create({
-  baseURL: 'https://jobyatra-ztfz.onrender.com/api/',
+  baseURL: 'http://localhost:5000/api/',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
