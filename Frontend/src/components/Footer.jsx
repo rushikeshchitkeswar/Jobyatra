@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { 
-  Linkedin, 
-  Twitter, 
-  Github, 
-  Instagram, 
-  Mail, 
+import {
+  Linkedin as LinkedinIcon,
+  Twitter,
+  Github,
+  Instagram,
+  Mail,
   ExternalLink,
   ChevronRight
 } from 'lucide-react';
@@ -14,7 +14,7 @@ import { useAuth } from '../context/AuthContext';
 
 const Footer = () => {
   const { user } = useAuth();
-  
+
   const allSections = [
     {
       title: "Company",
@@ -58,22 +58,22 @@ const Footer = () => {
   // Role-based filtering logic
   const footerSections = allSections.filter(section => {
     if (!user) return true; // Show all for guest users
-    
+
     if (user.role === 'user') {
       // Candidate: Hide Employers
       return section.title !== 'Employers';
     }
-    
+
     if (user.role === 'recruiter') {
       // Recruiter: Hide Job Seekers
       return section.title !== 'Job Seekers';
     }
-    
+
     return true; // Admin or other roles see everything
   });
 
   const socialLinks = [
-    { icon: <Linkedin size={20} />, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: <LinkedinIcon size={20} />, href: "https://linkedin.com", label: "LinkedIn" },
     { icon: <Twitter size={20} />, href: "https://twitter.com", label: "Twitter" },
     { icon: <Github size={20} />, href: "https://github.com", label: "GitHub" },
     { icon: <Instagram size={20} />, href: "https://instagram.com", label: "Instagram" },
@@ -88,9 +88,9 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        
+
         {/* Top CTA Strip */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -99,7 +99,7 @@ const Footer = () => {
         >
           {/* CTA Background Gradient */}
           <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-          
+
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
@@ -110,14 +110,14 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link 
-                to="/jobs" 
+              <Link
+                to="/jobs"
                 className="gradient-btn px-8 py-4 rounded-xl font-semibold flex items-center gap-2 shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all duration-300 active:scale-95"
               >
                 Find Jobs <ChevronRight size={18} />
               </Link>
-              <Link 
-                to="/post-job" 
+              <Link
+                to="/post-job"
                 className="px-8 py-4 rounded-xl font-semibold bg-slate-800 text-white hover:bg-slate-700 border border-slate-700 transition-all duration-300 active:scale-95"
               >
                 Post a Job
@@ -134,8 +134,8 @@ const Footer = () => {
               <ul className="flex flex-col gap-3">
                 {section.links.map((link, linkIdx) => (
                   <li key={linkIdx}>
-                    <Link 
-                      to={link.path} 
+                    <Link
+                      to={link.path}
                       className="group relative flex items-center text-slate-400 hover:text-white transition-colors duration-300 py-1"
                     >
                       <span>{link.name}</span>
@@ -164,7 +164,7 @@ const Footer = () => {
                   className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition-all duration-300 group relative"
                 >
                   <div className="absolute inset-0 rounded-full bg-gradient-jobyatra opacity-0 group-hover:opacity-100 blur transition-opacity duration-300 scale-110" />
-                  <motion.div 
+                  <motion.div
                     whileHover={{ scale: 1.1 }}
                     className="relative z-10"
                   >
@@ -177,10 +177,10 @@ const Footer = () => {
             <div className="mt-4 flex flex-col gap-3">
               <p className="text-slate-400 text-sm">Subscribe to our newsletter</p>
               <div className="flex bg-slate-900 border border-slate-800 rounded-lg p-1">
-                <input 
-                  type="email" 
-                  placeholder="Email address" 
-                  className="bg-transparent border-none focus:ring-0 text-sm px-3 py-2 w-full text-white" 
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  className="bg-transparent border-none focus:ring-0 text-sm px-3 py-2 w-full text-white"
                 />
                 <button className="bg-primary hover:bg-primary-dark text-white rounded-md p-2 transition-colors">
                   <Mail size={16} />
@@ -203,7 +203,7 @@ const Footer = () => {
               <p>System operational</p>
             </div>
           </div>
-          
+
           <div className="flex flex-wrap justify-center gap-6 md:gap-8">
             <Link to="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-slate-300 transition-colors">Terms</Link>
