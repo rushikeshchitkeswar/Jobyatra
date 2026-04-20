@@ -22,7 +22,7 @@ const path = require("path");
 
 // Initialize Express app
 const app = express();
-const _dirname = path.resolve();
+const __dirname = path.resolve();
 
 // Body parser
 app.use(express.json({ limit: '100mb' }));
@@ -72,11 +72,16 @@ app.get('/', (req, res) => {
 
 // Centralized error middleware
 app.use(errorHandler);
-
-app.use(express.static(path.join(_dirname, "Frontend", "dist")))
-app.get((_, res) => {
-  res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
-})
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/Frontend/build")))
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, "Frontend", "build", "index.html"))
+  })
+} else {
+  app.get('/', (req, res) => {
+    res.send("API is Running Successfully");
+  });
+}
 
 
 // Define PORT
