@@ -19,7 +19,7 @@ const sendTokenResponse = (user, statusCode, res) => {
       Date.now() + 7 * 24 * 60 * 60 * 1000 // 7 days
     ),
     httpOnly: true,
-    // secure: process.env.NODE_ENV === 'production',
+    secure: process.env.NODE_ENV === 'production',
     // sameSite: process.env.NODE_ENV === 'production' ? 'Strict' : 'Lax',
     secure: true,        // 🔥 always true for Render (HTTPS)
     sameSite: "None",
