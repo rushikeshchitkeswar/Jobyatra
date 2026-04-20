@@ -22,7 +22,7 @@ connectDB();
 
 // Initialize Express app
 const app = express();
-const _dirname = path.resolve();
+// const _dirname = path.resolve();
 
 // Body parser
 app.use(express.json({ limit: '100mb' }));
