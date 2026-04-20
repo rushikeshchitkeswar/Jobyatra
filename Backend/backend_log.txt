@@ -7800,3 +7800,389 @@ Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc
 [0mGET /api/notifications/unread-count [36m304[0m 8.188 ms - -[0m
 Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
 [0mGET /api/notifications/unread-count [36m304[0m 6.556 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 6.632 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 5.291 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.442 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 23.369 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 14.978 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 6.511 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 14.901 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 10.564 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 10.281 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 6.821 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 15.317 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 7.494 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 10.245 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 6.731 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.161 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 16.344 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 11.562 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 7.726 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 12.839 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 10.708 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 7.943 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+{
+  preferences: {
+    emailNotifications: {
+      applicationUpdates: true,
+      interviews: true,
+      jobAlerts: true,
+      newsletter: false
+    },
+    profileVisibility: 'public'
+  },
+  _id: new ObjectId('69d541af977c39004cdb75b7'),
+  name: 'Mayur Mohurle',
+  email: 'mayurmohurle@gmail.com',
+  role: 'recruiter',
+  googleId: null,
+  recruiterVerified: true,
+  skills: [],
+  portfolioLinks: [],
+  certifications: [],
+  profileViews: 0,
+  profileComplete: 0,
+  savedJobs: [],
+  experience: [],
+  createdAt: 2026-04-07T17:41:03.707Z,
+  updatedAt: 2026-04-19T08:22:14.262Z,
+  __v: 0,
+  profileImage: 'https://res.cloudinary.com/dzniqiwqz/image/upload/v1775948231/jobyatra/avatars/yfpf8bacfu79okaixwwc.png',
+  accountStatus: 'active',
+  isBlocked: false,
+  recruiterStatus: 'Approved'
+} user
+[0mGET /api/auth/me [36m304[0m 68.339 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+{
+  preferences: {
+    emailNotifications: {
+      applicationUpdates: true,
+      interviews: true,
+      jobAlerts: true,
+      newsletter: false
+    },
+    profileVisibility: 'public'
+  },
+  _id: new ObjectId('69d541af977c39004cdb75b7'),
+  name: 'Mayur Mohurle',
+  email: 'mayurmohurle@gmail.com',
+  role: 'recruiter',
+  googleId: null,
+  recruiterVerified: true,
+  skills: [],
+  portfolioLinks: [],
+  certifications: [],
+  profileViews: 0,
+  profileComplete: 0,
+  savedJobs: [],
+  experience: [],
+  createdAt: 2026-04-07T17:41:03.707Z,
+  updatedAt: 2026-04-19T08:22:14.262Z,
+  __v: 0,
+  profileImage: 'https://res.cloudinary.com/dzniqiwqz/image/upload/v1775948231/jobyatra/avatars/yfpf8bacfu79okaixwwc.png',
+  accountStatus: 'active',
+  isBlocked: false,
+  recruiterStatus: 'Approved'
+} user
+[0mGET /api/auth/me [36m304[0m 9.805 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/recruiter/profile [36m304[0m 36.644 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 46.657 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/recruiter/profile [36m304[0m 22.618 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 18.561 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 9.348 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 7.965 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/recruiter/profile [36m304[0m 8.038 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 10.733 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+{
+  preferences: {
+    emailNotifications: {
+      applicationUpdates: true,
+      interviews: true,
+      jobAlerts: true,
+      newsletter: false
+    },
+    profileVisibility: 'public'
+  },
+  _id: new ObjectId('69d541af977c39004cdb75b7'),
+  name: 'Mayur Mohurle',
+  email: 'mayurmohurle@gmail.com',
+  role: 'recruiter',
+  googleId: null,
+  recruiterVerified: true,
+  skills: [],
+  portfolioLinks: [],
+  certifications: [],
+  profileViews: 0,
+  profileComplete: 0,
+  savedJobs: [],
+  experience: [],
+  createdAt: 2026-04-07T17:41:03.707Z,
+  updatedAt: 2026-04-19T08:22:14.262Z,
+  __v: 0,
+  profileImage: 'https://res.cloudinary.com/dzniqiwqz/image/upload/v1775948231/jobyatra/avatars/yfpf8bacfu79okaixwwc.png',
+  accountStatus: 'active',
+  isBlocked: false,
+  recruiterStatus: 'Approved'
+} user
+[0mGET /api/auth/me [36m304[0m 17.518 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+{
+  preferences: {
+    emailNotifications: {
+      applicationUpdates: true,
+      interviews: true,
+      jobAlerts: true,
+      newsletter: false
+    },
+    profileVisibility: 'public'
+  },
+  _id: new ObjectId('69d541af977c39004cdb75b7'),
+  name: 'Mayur Mohurle',
+  email: 'mayurmohurle@gmail.com',
+  role: 'recruiter',
+  googleId: null,
+  recruiterVerified: true,
+  skills: [],
+  portfolioLinks: [],
+  certifications: [],
+  profileViews: 0,
+  profileComplete: 0,
+  savedJobs: [],
+  experience: [],
+  createdAt: 2026-04-07T17:41:03.707Z,
+  updatedAt: 2026-04-19T08:22:14.262Z,
+  __v: 0,
+  profileImage: 'https://res.cloudinary.com/dzniqiwqz/image/upload/v1775948231/jobyatra/avatars/yfpf8bacfu79okaixwwc.png',
+  accountStatus: 'active',
+  isBlocked: false,
+  recruiterStatus: 'Approved'
+} user
+[0mGET /api/auth/me [36m304[0m 11.089 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 17.293 ms - -[0m
+[0mGET /api/recruiter/profile [36m304[0m 14.230 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 12.531 ms - -[0m
+[0mGET /api/recruiter/profile [36m304[0m 9.618 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 10.851 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 9.460 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/recruiter/profile [36m304[0m 8.022 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 9.585 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 6.932 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 6.843 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.250 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 14.554 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 6.572 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 7.454 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.289 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 10.056 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 9.727 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 6.065 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.678 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 19.428 ms - -[0m
+[0mGET /api/notifications/unread-count [36m304[0m 12.541 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 8.540 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 261.785 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 6.780 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 5.870 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 10.364 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 5.876 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 21.353 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 15.786 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 190.533 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 86.808 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 43.461 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 23.334 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 143.151 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 195.530 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 46.362 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 20.287 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 11.989 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 8.275 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 25.605 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 27.519 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 8.900 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 23.438 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 8.952 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 34.600 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 24.819 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+{
+  preferences: {
+    emailNotifications: {
+      applicationUpdates: true,
+      interviews: true,
+      jobAlerts: true,
+      newsletter: false
+    },
+    profileVisibility: 'public'
+  },
+  _id: new ObjectId('69d541af977c39004cdb75b7'),
+  name: 'Mayur Mohurle',
+  email: 'mayurmohurle@gmail.com',
+  role: 'recruiter',
+  googleId: null,
+  recruiterVerified: true,
+  skills: [],
+  portfolioLinks: [],
+  certifications: [],
+  profileViews: 0,
+  profileComplete: 0,
+  savedJobs: [],
+  experience: [],
+  createdAt: 2026-04-07T17:41:03.707Z,
+  updatedAt: 2026-04-19T08:22:14.262Z,
+  __v: 0,
+  profileImage: 'https://res.cloudinary.com/dzniqiwqz/image/upload/v1775948231/jobyatra/avatars/yfpf8bacfu79okaixwwc.png',
+  accountStatus: 'active',
+  isBlocked: false,
+  recruiterStatus: 'Approved'
+} user
+[0mGET /api/auth/me [36m304[0m 30.155 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+{
+  preferences: {
+    emailNotifications: {
+      applicationUpdates: true,
+      interviews: true,
+      jobAlerts: true,
+      newsletter: false
+    },
+    profileVisibility: 'public'
+  },
+  _id: new ObjectId('69d541af977c39004cdb75b7'),
+  name: 'Mayur Mohurle',
+  email: 'mayurmohurle@gmail.com',
+  role: 'recruiter',
+  googleId: null,
+  recruiterVerified: true,
+  skills: [],
+  portfolioLinks: [],
+  certifications: [],
+  profileViews: 0,
+  profileComplete: 0,
+  savedJobs: [],
+  experience: [],
+  createdAt: 2026-04-07T17:41:03.707Z,
+  updatedAt: 2026-04-19T08:22:14.262Z,
+  __v: 0,
+  profileImage: 'https://res.cloudinary.com/dzniqiwqz/image/upload/v1775948231/jobyatra/avatars/yfpf8bacfu79okaixwwc.png',
+  accountStatus: 'active',
+  isBlocked: false,
+  recruiterStatus: 'Approved'
+} user
+[0mGET /api/auth/me [36m304[0m 8.888 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 21.213 ms - -[0m
+[0mGET /api/recruiter/profile [36m304[0m 21.244 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 10.566 ms - -[0m
+[0mGET /api/recruiter/profile [36m304[0m 8.803 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 16.162 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 9.152 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/recruiter/profile [36m304[0m 6.470 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 6.790 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 8.438 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 6.547 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 4.440 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 8.197 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.675 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 4.839 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 3.338 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJhYTBiMWU4NzEzYTEwYWQxODhiMiIsImlhdCI6MTc3NjY2MjU3NSwiZXhwIjoxNzc3OTU4NTc1fQ.3cpP4Qlas3CczP3R12UnOfwjyKeSerWWMMK6I1-pMNU
+[0mGET /api/notifications/unread-count [36m304[0m 7.497 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 6.966 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 5.680 ms - -[0m
+Token from cookies: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDU0MWFmOTc3YzM5MDA0Y2RiNzViNyIsImlhdCI6MTc3NjY3MzI2NSwiZXhwIjoxNzc3OTY5MjY1fQ.Rp85agVUPv0dVjj41PG0o_Nd0zidzk1u-Fq0HpPVydY
+[0mGET /api/notifications/unread-count [36m304[0m 3.838 ms - -[0m
