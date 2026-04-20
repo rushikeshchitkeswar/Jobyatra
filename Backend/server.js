@@ -18,10 +18,11 @@ const Candidate = require('./candidate/routes/candidateRoutes');
 const Recruiter = require('./routes/recruiterRoutes');
 const contactRoutes = require('./routes/contactRoutes');
 const seedAdmin = require('./seedAdmin');
+const path = require("path");
 
 // Initialize Express app
 const app = express();
-// const _dirname = path.resolve();
+const _dirname = path.resolve();
 
 // Body parser
 app.use(express.json({ limit: '100mb' }));
@@ -34,7 +35,7 @@ app.use(helmet());
 // Enable CORS (Allow frontend URL)
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Adjust defaults as needed
+    origin: process.env.FRONTEND_URL || 'https://jobyatra-jobportal.onrender.com', // Adjust defaults as needed
     credentials: true,
   })
 );
@@ -72,10 +73,10 @@ app.get('/', (req, res) => {
 // Centralized error middleware
 app.use(errorHandler);
 
-// app.use(express.static(path.join(_dirname, "/Frontend/dist")))
-// app.get('*', (_, res) => {
-//   res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
-// })
+app.use(express.static(path.join(_dirname, "/Frontend/dist")))
+app.get('*', (_, res) => {
+  res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
+})
 
 
 // Define PORT
