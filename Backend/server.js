@@ -33,12 +33,7 @@ app.use(cookieParser());
 app.use(helmet());
 
 // Enable CORS (Allow frontend URL)
-app.use(
-  cors({
-    origin: process.env.FRONTEND_URL || 'https://jobyatra-jobportal.onrender.com', // Adjust defaults as needed
-    credentials: true,
-  })
-);
+app.use(cors());
 
 // Logging middleware
 if (process.env.NODE_ENV === 'production') {
