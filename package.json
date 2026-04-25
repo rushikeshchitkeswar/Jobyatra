@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npm install && npm install --prefix Frontend && npm run dev build --prefix",
+    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend",
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cloudinary": "^2.9.0",

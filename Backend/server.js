@@ -22,7 +22,7 @@ const path = require("path");
 
 // Initialize Express app
 const app = express();
-const __dirname = path.resolve();
+
 
 // Body parser
 app.use(express.json({ limit: '100mb' }));
@@ -65,18 +65,23 @@ app.get('/', (req, res) => {
   res.send('JobYatra API is running...');
 });
 
-// Centralized error middleware
-app.use(errorHandler);
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "/Frontend/build")))
+const __dirname = path.resolve();
+
+if (process.env.NODE_ENV == 'production') {
+  app.use(express.static(path.join(__dirname, '/Frontend/dist')));
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, "Frontend", "build", "index.html"))
-  })
-} else {
-  app.get('/', (req, res) => {
-    res.send("API is Running Successfully");
+    res.sendFile(path.resolve(__dirname, 'Frontend', 'dist', 'index.html'));
   });
 }
+else {
+  app.get('/', (req, res) => {
+    res.send('JobYatra API is running...');
+  });
+}
+
+// Centralized error middleware
+app.use(errorHandler);
+// Health check already defined at line 69, so no extra code needed here.
 
 
 // Define PORT
