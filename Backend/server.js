@@ -36,9 +36,9 @@ app.use(helmet());
 app.use(cors());
 
 // Logging middleware
-if (process.env.NODE_ENV === 'production') {
-  app.use(morgan('dev'));
-}
+// if (process.env.NODE_ENV === 'production') {
+//   app.use(morgan('dev'));
+// }
 
 // Rate limiting
 app.use(globalLimiter);
@@ -61,9 +61,9 @@ app.use('/api/admin', Admin);
 app.use('/api/contact', contactRoutes);
 
 // Basic health check route
-app.get('/', (req, res) => {
-  res.send('JobYatra API is running...');
-});
+// app.get('/', (req, res) => {
+//   res.send('JobYatra API is running...');
+// });
 
 const __dirname = path.resolve();
 
