@@ -32,8 +32,29 @@ app.use(cookieParser());
 // Security headers
 app.use(helmet());
 
-// Enable CORS (Allow frontend URL)
-app.use(cors());
+// Enable CORS with specific options
+const allowedOrigins = [
+  'https://jobyatra-jobportal.onrender.com', // Frontend URL
+  'https://jobyatra-ztfz.onrender.com',      // Backend URL
+  process.env.FRONTEND_URL,                  // Flexibility for other environments
+  'http://localhost:5173',                   // Local Vite dev
+  'http://localhost:3000'
+].filter(Boolean);
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin) || process.env.NODE_ENV !== 'production') {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Cookie'],
+  exposedHeaders: ['Set-Cookie'],
+  optionsSuccessStatus: 200
+}));
 
 // Logging middleware
 // if (process.env.NODE_ENV === 'production') {
