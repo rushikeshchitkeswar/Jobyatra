@@ -65,7 +65,7 @@ app.use('/api/contact', contactRoutes);
 //   res.send('JobYatra API is running...');
 // });
 
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 
 if (process.env.NODE_ENV == 'production') {
   app.use(express.static(path.join(__dirname, '/Frontend/dist')));
