@@ -8,10 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-7tkiPngW.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BinAAlB7.css">
+    <script type="module" crossorigin src="/assets/index-DW9uxVt0.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-BqBKih_4.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-vendor-CQeC_e80.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DWQb6jN9.css">
   </head>
   <body class="font-['Inter'] antialiased">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Initial Static Loader -->
+      <style>
+        .initial-loader {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          width: 100vw;
+          background: #ffffff;
+          font-family: 'Inter', sans-serif;
+        }
+        .spinner {
+          width: 40px;
+          height: 40px;
+          border: 4px solid #f3f3f3;
+          border-top: 4px solid #2563eb;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        .loader-text {
+          margin-top: 16px;
+          color: #1f2937;
+          font-weight: 500;
+        }
+      </style>
+      <div class="initial-loader">
+        <div class="spinner"></div>
+        <div class="loader-text">Loading JobYatra...</div>
+      </div>
+    </div>
   </body>
 </html>

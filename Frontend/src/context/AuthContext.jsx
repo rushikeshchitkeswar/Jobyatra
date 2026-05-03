@@ -1,6 +1,7 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { getUser, clearAuthData, setUser } from '../utils/authUtils';
 import authService from '../services/authService';
+import LoadingScreen from '../components/common/LoadingScreen';
 
 const AuthContext = createContext();
 
@@ -116,7 +117,7 @@ export const AuthProvider = ({ children }) => {
 
   return (
     <AuthContext.Provider value={{ user, isAuthenticated, loading, login, logout, register, refreshUser, updateUser }}>
-      {!loading && children}
+      {loading ? <LoadingScreen /> : children}
     </AuthContext.Provider>
   );
 };
